@@ -35,8 +35,8 @@ header .logo {
 header nav a {
     text-decoration: none;
     color:var(--roxo);
-    margin-right: 20px;
-    text-transform: uppercase;  
+    margin-right: 20px; 
+    text-transform: uppercase;
 }
 
 header nav a:hover {
@@ -53,7 +53,7 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40)90%), url(../img/Marshmallow.png) ;
 
-    height: 400px;
+    height: 500px;
     background-size: cover; /*Declaramos que a imagem ira possuir todo o nosso HEIGHT*/  
     
     display: flex;
@@ -95,8 +95,8 @@ header nav a:hover {
     margin-right: 8px;
 }
 
-/*Todos os elementos que é relacionado a section */
-.mainstage {
+/*Todos os elementos que é relacionado a section de Djs */
+.titulo-palco {
     margin: 20px;
 }
 
@@ -114,6 +114,18 @@ header nav a:hover {
     top:-6px;box-shadow:0 4px 4px var(--roxo);
     transition: all .2s ease-in-out
 }
+
+/*Footer*/
+
+footer .container {
+    display: flex;
+    height: 60px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    color: var(--rosa);
+    border-top: 1px solid var(--roxo);
+
 
 
 

@@ -1,0 +1,15 @@
+/*Para modificar em telas de 900px*/
+@media screen and (max-width: 900px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    main .container {
+        margin-top: 25%;
+    }
+}
+
