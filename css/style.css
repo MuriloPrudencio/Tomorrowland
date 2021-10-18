@@ -1,0 +1,123 @@
+/*Variavel com paletas de cores*/
+:root {
+    --roxo: #bb50bb;
+    --azul: #341c9e; /*Hover url menu*/
+    --azul-marinho: #84eaf1;
+    --rosa: #de2358;
+}
+
+/*Reset geral da página*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background: url(../img/background.png);
+}
+
+header .container {
+    display: flex; /*Aqui transformamos todos os elementos do container em Flex*/
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+header .logo {
+    margin-left: 10px;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color:var(--roxo);
+    margin-right: 20px;
+    text-transform: uppercase;  
+}
+
+header nav a:hover {
+    color: var(--azul);   
+}
+
+/*Todos elemtneos que é relacionado ao Dj principal*/
+.dj-principal .container {
+    max-width: 510px;
+    margin-left: 15px;
+}
+
+.dj-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40)90%), url(../img/Marshmallow.png) ;
+
+    height: 400px;
+    background-size: cover; /*Declaramos que a imagem ira possuir todo o nosso HEIGHT*/  
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dj-principal .descricao {
+    margin-top: 1.5%;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #ffffff;
+
+    padding: 15px 20px;
+    margin-right: 15px;
+    font-size: 13px;
+
+    cursor: pointer;
+    transition: 2s ease all;
+}
+
+.botao:hover{
+    background-color: var(--azul-marinho);
+    color: var(--rosa);
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+/*Todos os elementos que é relacionado a section */
+.mainstage {
+    margin: 20px;
+}
+
+.box-dj {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.tw{
+    position:relative;top:0
+}
+.tw:hover{
+    top:-6px;box-shadow:0 4px 4px var(--roxo);
+    transition: all .2s ease-in-out
+}
+
+
+
+
+
+
+
